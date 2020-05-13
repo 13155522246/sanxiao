@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="645,1012">
+  <displayList>
+    <loader id="n0_icye" name="n0" xy="0,0" size="645,1012" url="ui://3u8lnen3icyea" fill="scaleFree"/>
+    <component id="n2_icye" name="btnYes" src="icyeg" fileName="Com/btnYes.xml" xy="177,885"/>
+    <text id="n3_icye" name="n3" xy="63,245" size="517,422" fontSize="36" color="#ff0000" align="center" vAlign="middle" autoSize="none" text="在时间内尽可能的获得分数吧~"/>
+    <image id="n4_icye" name="n4" src="icyec" fileName="Image/公告.png" xy="273,29"/>
+  </displayList>
+</component>

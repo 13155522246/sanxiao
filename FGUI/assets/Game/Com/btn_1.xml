@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="80,80" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <loader id="n0_9iyf" name="icon" xy="0,0" size="80,80" url="ui://h4p0sply9iyfi">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <text id="n1_9iyf" name="title" xy="15,39" size="40,19" visible="false" fontSize="12" text=""/>
+  </displayList>
+  <Button/>
+  <transition name="t0">
+    <item time="0" type="Alpha" tween="true" startValue="1" endValue="0" duration="24"/>
+    <item time="0" type="Shake" value="5,0.5"/>
+  </transition>
+</component>

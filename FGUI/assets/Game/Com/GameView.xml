@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <loader id="n1_9iyf" name="IconBg" xy="0,0" size="750,1334" url="ui://h4p0sply9iyfd" align="center" vAlign="middle" fill="scaleFree"/>
+    <graph id="n2_9iyf" name="G0" xy="54,312" size="100,100" type="rect"/>
+    <graph id="n3_9iyf" name="G1" xy="191,315" size="100,100" type="rect"/>
+    <graph id="n4_9iyf" name="G21" xy="186,818" size="100,100" type="rect"/>
+    <graph id="n5_9iyf" name="G5" xy="53,436" size="100,100" type="rect"/>
+    <graph id="n6_9iyf" name="G6" xy="194,437" size="100,100" type="rect"/>
+    <graph id="n7_9iyf" name="G11" xy="193,567" size="100,100" type="rect"/>
+    <graph id="n8_9iyf" name="G10" xy="54,563" size="100,100" type="rect"/>
+    <graph id="n9_9iyf" name="G25" xy="56,938" size="100,100" type="rect"/>
+    <graph id="n10_9iyf" name="G16" xy="191,685" size="100,100" type="rect"/>
+    <graph id="n11_9iyf" name="G15" xy="53,686" size="100,100" type="rect"/>
+    <graph id="n12_9iyf" name="G20" xy="54,818" size="100,100" type="rect"/>
+    <graph id="n13_9iyf" name="G26" xy="189,940" size="100,100" type="rect"/>
+    <graph id="n14_9iyf" name="G2" xy="327,316" size="100,100" type="rect"/>
+    <graph id="n15_9iyf" name="G7" xy="330,438" size="100,100" type="rect"/>
+    <graph id="n16_9iyf" name="G12" xy="330,571" size="100,100" type="rect"/>
+    <graph id="n17_9iyf" name="G17" xy="327,688" size="100,100" type="rect"/>
+    <graph id="n18_9iyf" name="G22" xy="330,818" size="100,100" type="rect"/>
+    <graph id="n19_9iyf" name="G27" xy="332,940" size="100,100" type="rect"/>
+    <graph id="n23_9iyf" name="G3" xy="465,316" size="100,100" type="rect"/>
+    <graph id="n24_9iyf" name="G8" xy="468,438" size="100,100" type="rect"/>
+    <graph id="n25_9iyf" name="G13" xy="468,571" size="100,100" type="rect"/>
+    <graph id="n26_9iyf" name="G18" xy="468,688" size="100,100" type="rect"/>
+    <graph id="n27_9iyf" name="G23" xy="467,818" size="100,100" type="rect"/>
+    <graph id="n28_9iyf" name="G28" xy="468,940" size="100,100" type="rect"/>
+    <graph id="n29_9iyf" name="G4" xy="602,316" size="100,100" type="rect"/>
+    <graph id="n30_9iyf" name="G9" xy="605,438" size="100,100" type="rect"/>
+    <graph id="n31_9iyf" name="G14" xy="605,571" size="100,100" type="rect"/>
+    <graph id="n32_9iyf" name="G19" xy="602,688" size="100,100" type="rect"/>
+    <graph id="n33_9iyf" name="G24" xy="602,818" size="100,100" type="rect"/>
+    <graph id="n34_9iyf" name="G29" xy="602,940" size="100,100" type="rect"/>
+    <component id="n35_h3lr" name="btnStartGame" src="h3lrs" fileName="Com/btnStartGame.xml" xy="75,1087"/>
+    <graph id="n36_h2cm" name="T0" xy="53,201" size="100,100" type="rect"/>
+    <graph id="n37_h2cm" name="T1" xy="191,201" size="100,100" type="rect"/>
+    <graph id="n38_h2cm" name="T2" xy="327,201" size="100,100" type="rect"/>
+    <graph id="n39_h2cm" name="T3" xy="468,201" size="100,100" type="rect"/>
+    <graph id="n40_h2cm" name="T4" xy="602,201" size="100,100" type="rect"/>
+    <text id="n41_h2cm" name="txtGameCount" xy="202,68" size="522,70" fontSize="30" color="#ff0000" align="center" vAlign="middle" autoSize="none" text="0"/>
+    <text id="n42_h2cm" name="n42" xy="33,68" size="169,70" fontSize="38" align="center" vAlign="middle" autoSize="none" text="分数"/>
+    <component id="n45_h2cm" name="btnTips" src="h2cm1k" fileName="Com/btnTips.xml" xy="-615,515"/>
+    <text id="n46_p42q" name="n46" xy="33,142" size="167,58" fontSize="38" align="center" vAlign="middle" autoSize="none" text="剩余时间"/>
+    <text id="n47_p42q" name="txtLastTime" xy="201,140" size="523,60" fontSize="30" color="#ff0000" align="center" vAlign="middle" autoSize="none" text=""/>
+    <component id="n48_p42q" name="btnUpdataChess" src="h3lrs" fileName="Com/btnStartGame.xml" xy="425,1087"/>
+  </displayList>
+  <transition name="t0">
+    <item time="0" type="XY" target="n45_h2cm" tween="true" startValue="-615,515" endValue="832,515" duration="24"/>
+  </transition>
+</component>

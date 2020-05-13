@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="3u8lnen3" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="icye0" name="进度条2.png" path="/Image/"/>
+    <image id="icye1" name="进度条1.png" path="/Image/"/>
+    <image id="icye2" name="背景图.jpg" path="/Image/"/>
+    <image id="icye3" name="卡通飞艇.png" path="/Image/"/>
+    <component id="icye4" name="GameLogin.xml" path="/Com/" exported="true"/>
+    <component id="icye5" name="ProgressBar1.xml" path="/Com/"/>
+    <image id="icye6" name="进入游戏按钮.png" path="/Image/"/>
+    <image id="icye7" name="进入游戏.png" path="/Image/"/>
+    <image id="icye8" name="确定按钮.png" path="/Image/"/>
+    <image id="icye9" name="知道了.png" path="/Image/"/>
+    <image id="icyea" name="底框.png" path="/Image/"/>
+    <image id="icyeb" name="公告图标-右上角.png" path="/Image/"/>
+    <image id="icyec" name="公告.png" path="/Image/"/>
+    <component id="icyee" name="ComNotice.xml" path="/Com/" exported="true"/>
+    <component id="icyeg" name="btnYes.xml" path="/Com/"/>
+    <component id="icyeh" name="btnNotice.xml" path="/Com/"/>
+    <component id="icyei" name="btnGoGame.xml" path="/Com/"/>
+  </resources>
+  <publish name="GameLogin"/>
+</packageDescription>

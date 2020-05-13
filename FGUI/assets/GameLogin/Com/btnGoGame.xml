@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="473,128" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <image id="n0_icye" name="n0" src="icye6" fileName="Image/进入游戏按钮.png" xy="0,0" size="473,128">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_icye" name="n1" src="icye7" fileName="Image/进入游戏.png" xy="121,32">
+      <relation target="n0_icye" sidePair="width-width,height-height"/>
+    </image>
+  </displayList>
+  <Button/>
+  <transition name="t0"/>
+</component>

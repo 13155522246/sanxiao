@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "system",
+    "target": "es6",
+    "declaration": true,
+    "sourceMap": false,
+    "removeComments": false,
+    "outFile": "./fairygui.js",
+  },
+  "exclude": [
+    "node_modules", 
+    "bin/**/*.d.ts",
+    "test"
+  ]
+}

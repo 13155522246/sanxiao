@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="h4p0sply" jpegQuality="80" compressPNG="true">
+  <resources>
+    <image id="9iyfc" name="0.png" path="/Image/"/>
+    <image id="9iyfd" name="Bg.png" path="/Image/"/>
+    <image id="9iyfe" name="5.png" path="/Image/"/>
+    <image id="9iyff" name="4.png" path="/Image/"/>
+    <image id="9iyfg" name="3.png" path="/Image/"/>
+    <image id="9iyfh" name="2.png" path="/Image/"/>
+    <image id="9iyfi" name="1.png" path="/Image/"/>
+    <component id="9iyfj" name="GameView.xml" path="/Com/" exported="true"/>
+    <component id="9iyfk" name="btn_2.xml" path="/Com/" exported="true"/>
+    <component id="9iyfl" name="btn_1.xml" path="/Com/" exported="true"/>
+    <component id="9iyfm" name="btn_0.xml" path="/Com/" exported="true"/>
+    <component id="9iyfn" name="btn_3.xml" path="/Com/" exported="true"/>
+    <component id="9iyfp" name="btn_5.xml" path="/Com/" exported="true"/>
+    <component id="9iyfq" name="btn_4.xml" path="/Com/" exported="true"/>
+    <image id="h3lrr" name="button_start.png" path="/Image/"/>
+    <component id="h3lrs" name="btnStartGame.xml" path="/Com/"/>
+    <image id="h2cmu" name="red.png" path="/Image/images/"/>
+    <image id="h2cmv" name="power.png" path="/Image/images/"/>
+    <image id="h2cmx" name="0000_9_png.png" path="/Image/images/"/>
+    <image id="h2cmy" name="0001_8_png.png" path="/Image/images/"/>
+    <image id="h2cmz" name="0002_7_png.png" path="/Image/images/"/>
+    <image id="h2cm10" name="0003_6_png.png" path="/Image/images/"/>
+    <image id="h2cm11" name="0004_5_png.png" path="/Image/images/"/>
+    <image id="h2cm12" name="0005_4_png.png" path="/Image/images/"/>
+    <image id="h2cm13" name="0006_3_png.png" path="/Image/images/"/>
+    <image id="h2cm14" name="0007_2_png.png" path="/Image/images/"/>
+    <image id="h2cm15" name="0008_1_png.png" path="/Image/images/"/>
+    <image id="h2cm16" name="0009_0-_png.png" path="/Image/images/"/>
+    <image id="h2cm18" name="0000_+.png" path="/Image/images/"/>
+    <image id="h2cm19" name="0001_9.png" path="/Image/images/"/>
+    <image id="h2cm1a" name="0002_8.png" path="/Image/images/"/>
+    <image id="h2cm1b" name="0003_7.png" path="/Image/images/"/>
+    <image id="h2cm1c" name="0004_6.png" path="/Image/images/"/>
+    <image id="h2cm1d" name="0005_5.png" path="/Image/images/"/>
+    <image id="h2cm1e" name="0006_4.png" path="/Image/images/"/>
+    <image id="h2cm1f" name="0007_3.png" path="/Image/images/"/>
+    <image id="h2cm1g" name="0008_2.png" path="/Image/images/"/>
+    <image id="h2cm1h" name="0009_1.png" path="/Image/images/"/>
+    <image id="h2cm1i" name="0010_0.png" path="/Image/images/"/>
+    <movieclip id="h2cm1j" name="U1UIT17.jta" path="/Image/images/"/>
+    <component id="h2cm1k" name="btnTips.xml" path="/Com/"/>
+  </resources>
+  <publish name="Game"/>
+</packageDescription>

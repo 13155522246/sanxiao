@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="502,140" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <graph id="n4_h2cm" name="n4" xy="0,0" size="502,140" type="rect" lineColor="#ff333333" fillColor="#9e333333"/>
+    <text id="n6_h2cm" name="title" xy="108,26" size="285,87" fontSize="42" color="#ff0000" align="center" vAlign="middle" autoSize="shrink" text="真棒"/>
+  </displayList>
+  <Button/>
+</component>

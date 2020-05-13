@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="750,1334">
+  <displayList>
+    <loader id="n0_icye" name="iconBg" xy="0,0" size="750,1334" url="ui://3u8lnen3icye2" fill="scaleFree">
+      <relation target="" sidePair="width-width,height-height"/>
+    </loader>
+    <component id="n1_icye" name="proGameF" src="icye5" fileName="Com/ProgressBar1.xml" xy="9,981">
+      <relation target="" sidePair="width-width,height-height,bottom-bottom"/>
+      <ProgressBar value="100" max="100"/>
+    </component>
+    <text id="n2_icye" name="txtGameNameF" xy="194,450" size="361,103" fontSize="36" color="#ff0000" align="center" vAlign="middle" autoSize="none" text="消除">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+    <component id="n5_icye" name="btnNotice" src="icyeh" fileName="Com/btnNotice.xml" xy="632,69">
+      <relation target="" sidePair="right-right,top-top"/>
+    </component>
+    <component id="n6_icye" name="btnGoGame" src="icyei" fileName="Com/btnGoGame.xml" xy="138,947" pivot="0.5,0.5" size="473,128">
+      <relation target="" sidePair="width-width,height-height,bottom-bottom"/>
+    </component>
+  </displayList>
+  <transition name="t0" autoPlay="true" autoPlayRepeat="-1">
+    <item time="0" type="ColorFilter" target="n6_icye" tween="true" startValue="0.00,0.00,0.00,0.00" endValue="0.13,0.00,0.00,0.00" duration="24"/>
+    <item time="0" type="Size" target="n6_icye" tween="true" startValue="473,128" endValue="523,140" duration="24"/>
+    <item time="24" type="ColorFilter" target="n6_icye" tween="true" startValue="0.13,0.00,0.00,0.00" endValue="0.00,0.00,0.00,0.00" duration="24"/>
+    <item time="24" type="Size" target="n6_icye" tween="true" startValue="523,140" endValue="473,128" duration="24"/>
+    <item time="48" type="ColorFilter" target="n6_icye" value="0.00,0.00,0.00,0.00"/>
+    <item time="48" type="Size" target="n6_icye" value="473,128"/>
+  </transition>
+</component>
