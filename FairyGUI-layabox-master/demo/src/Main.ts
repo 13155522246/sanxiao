@@ -50,6 +50,7 @@ class Main {
 		// fgui.UIPackage.loadPackage("res/UI/Game", Laya.Handler.create(this, this.onUILoaded));
 		LoadManager.Instance().addPackage(packageStr, packageRes);
 		const GameLoginView = UIManager.Instance().openView(ViewNameType.GameLogin, GameLogin);
+		GameLoginView.init();
 	}
 }
 //激活启动类

@@ -480,8 +480,30 @@
         GameView: 'Game+GameView'
     };
 
-    class GameLogin {
-        constructor() {
+    var FGCom = fairygui.GComponent;
+    var FUI = fairygui.UIPackage;
+    class BaseObject extends FGCom {
+        constructor(com, cfg) {
+            super();
+            if (!com) {
+                com = FUI.createObject(cfg.pkgName, cfg.resName).asCom;
+            }
+            Object.getOwnPropertyNames(com).forEach(name => { this[name] = com[name]; });
+        }
+        event(event, data) {
+            this.displayObject.event(event, data);
+        }
+        onShow() { }
+        onHide() { }
+    }
+
+    class GameLogin extends BaseObject {
+        constructor(com_Login) {
+            super(com_Login);
+            this.view = com_Login;
+            this.init();
+            this.btnGoGame = this.getChild("btnGoGame").asButton;
+            this.btnGoGame.visible = false;
         }
         init() {
             console.log('消除小游戏登录界面');
@@ -521,6 +543,7 @@
             const packageRes = ['res/UI/GameLogin.txt'];
             LoadManager.Instance().addPackage(packageStr, packageRes);
             const GameLoginView = UIManager.Instance().openView(ViewNameType.GameLogin, GameLogin);
+            GameLoginView.init();
         }
     }
     new Main();
